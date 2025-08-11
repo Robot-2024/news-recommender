@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+backend/.env
+
+# 数据文件（如果只想保留空目录，可在 data/ 下放 .gitkeep）
+data/
+
+# 前端依赖文件夹
+frontend/node_modules/
+
+# 日志文件
+*.log
